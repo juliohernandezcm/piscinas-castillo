@@ -5,108 +5,171 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Piscinas Castillo🏊‍♀️</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <title>Piscinas</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <header class="header">
-    <div class="header__logo-container">
-      <img src="" alt="Logo piscinas 
-    Castillo">
-    </div>
-    <div class="nav-container">
-      <nav class="header__nav">
-        <ul class="header__nav--list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="nosotros.html">Nosotros</a></li>
-          <li><a href="servicios.html">Servicios</a></li>
-          <li><a href="galeria.html">Galeria</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header id="header">
+    <nav class="navbar navbar-expand-sm navbar-bottom navbar-light p-4">
+      <div class="container-fluid gap-2">
+        <a class="navbar-brand" href="#"><img src="assets/logo_piscinas-castillo.jpg" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
-  <main class="main">
-    <section class="main__manager">
-      <img src="assets/ejecutivo.jpg" alt="">
-      <div class="main__manager--bio">
-        <h3>Ing. Richard Castillo</h3>
-        <h4>Gerente General</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo a culpa non veniam optio delectus,
-          veritatis dolor molestiae aliquid facere vel possimus doloribus mollitia est ea nisi. Explicabo, cum tempora.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque at minima quae! Libero at
-          voluptates ullam sed? Officia excepturi ea assumenda quisquam at obcaecati similique blanditiis quas sunt
-          deleniti.</p>
+  <main class="p-5">
+    <div class="card p-5 border-0">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="assets/ejecutivo.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h2 class="card-title fw-bold">Ing. Richard Castillo</h2>
+            <h4 class="fw-bold">CEO Piscinas Castillo</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro corrupti magnam ducimus
+              dolore obcaecati velit adipisci vero non. Optio rerum ullam inventore illo debitis alias nostrum,
+              voluptatum laboriosam voluptas quis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam id
+              ratione, ex eligendi, iste blanditiis possimus reiciendis consequuntur consequatur, inventore
+              necessitatibus dignissimos cum nam voluptatem enim qui natus explicabo. Amet!</p>
+          </div>
+        </div>
       </div>
-    </section>
-    <hr>
-    <section class="main__mvf">
-      <div class="main__mvf--mision">
-        <img src="iconos/Mision-icon.png" alt="Imagen Mision">
-        <h3>Misión</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, velit aliquam obcaecati, earum debitis odio
-          vero, assumenda libero voluptas sapiente tempore nobis ipsam! Asperiores enim odio eum, veritatis illum
-          totam?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident blanditiis, atque est autem voluptatibus
-          quidem molestiae eius assumenda reprehenderit, repellendus officiis distinctio quas dolore excepturi minima
-          officia cumque. Distinctio, excepturi?
-        </p>
-      </div>
-      <div class="main__mvf--vision">
-        <img src="iconos/vision-icon.png" alt="Imagen vision-icon">
-        <h3>Visión</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, velit aliquam obcaecati, earum debitis odio
-          vero, assumenda libero voluptas sapiente tempore nobis ipsam! Asperiores enim odio eum, veritatis illum
-          totam?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reiciendis fugiat asperiores vero voluptates
-          saepe
-          a sequi officia iusto, modi, ducimus doloremque veritatis, delectus aspernatur dolor placeat maxime magnam.
-          Dolor!
-        </p>
-      </div>
-      <div class="main__mvf--valores">
-        <img src="iconos/valores-icon.png" alt="Imagen Valores">
-        <h3>Valores</h3>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse, velit aliquam obcaecati, earum debitis odio
-          vero, assumenda libero voluptas sapiente tempore nobis ipsam! Asperiores enim odio eum, veritatis illum totam?
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo, quos neque perferendis iusto dolorem
-          velit. Asperiores, quaerat, inventore architecto aliquid ut mollitia necessitatibus molestias aperiam odit ea
-          sit minus voluptate.
-        </p>
+    </div>
+    <section class="mision m-5 p-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="iconos/Mision-icon.png" class="card-img-top rounded mx-auto d-block" alt="...">
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold">Mision</h3>
+              <p class="card-text text-cent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident odit
+                labore
+                repellat cum error culpa maiores velit quaerat numquam, cumque vero voluptatem quae perferendis est
+                eveniet exercitationem officiis voluptate? Ipsum Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Obcaecati perspiciatis voluptatum, consectetur magnam praesentium ipsum, facilis dolores ea enim
+                recusandae accusantium aliquid exercitationem similique sint ipsa inventore incidunt? Iusto, ex.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="iconos/vision-icon.png" class="card-img-top rounded mx-auto d-block" alt="...">
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold">Mision</h3>
+              <p class="card-text text-cent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident odit
+                labore
+                repellat cum error culpa maiores velit quaerat numquam, cumque vero voluptatem quae perferendis est
+                eveniet exercitationem officiis voluptate? Ipsum Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Praesentium quia optio totam facere fugiat, eligendi, vero consectetur pariatur repellendus
+                nostrum odio magnam voluptate dignissimos nam ab! At nisi debitis autem!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="iconos/valores-icon.png" class="card-img-top rounded mx-auto d-block" alt="...">
+            <div class="card-body">
+              <h3 class="card-title text-center fw-bold">Mision</h3>
+              <p class="card-text text-cent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident odit
+                labore
+                repellat cum error culpa maiores velit quaerat numquam, cumque vero voluptatem quae perferendis est
+                eveniet exercitationem officiis voluptate? Ipsum Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Amet libero modi odio maiores? Voluptatum soluta dolor aut magnam quaerat harum aliquam, nostrum,
+                temporibus ex qui mollitia, ad voluptatem aperiam blanditiis?/p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
-  <footer class="footer">
-    <section class="footer-top">
-      <div class="footer__left">
-        <img src="" alt="Logo piscinas Castillo">
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container-fluid p-5 text-light">
+      <div class="row">
+        <div class="col-sm-12 col-md-4 d-flex justify-content-center align-items-center mb-4">
+          <img class="logo" src="assets/logo_piscinas-castillo.jpg" alt="">
+        </div>
+        <div class="col-sm-6 col-md-4 text-center">
+          <p class="fw-bold">Contacto</p>
+          <ul class="list-unstyled d-inline-block">
+            <li class="">
+              <p></p><svg class="bi text-white" width="15" height="15" fill="currentColor">
+                <use xlink:href="iconos/bootstrap-icons/bootstrap-icons.svg#telephone-fill" />
+              </svg>
+              +569 30254035</p>
+            </li>
+            <li>
+              <p></p><svg class="bi text-white" width="15" height="15" fill="currentColor">
+                <use xlink:href="iconos/bootstrap-icons/bootstrap-icons.svg#telephone-fill" />
+              </svg>
+              +569 30254035</p>
+            </li>
+            <li>
+              <p></p><svg class="bi text-white" width="15" height="15" fill="currentColor">
+                <use xlink:href="iconos/bootstrap-icons/bootstrap-icons.svg#whatsapp" />
+              </svg>
+              +569 30254035</p>
+            </li>
+            <li>
+              <p></p><svg class="bi text-white" width="15" height="15" fill="currentColor">
+                <use xlink:href="iconos/bootstrap-icons/bootstrap-icons.svg#envelope" />
+              </svg>
+              contacto@piscinascastillo.cl</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-md-4  rrss text-center">
+          <p class="fw-bold">Redes Sociales</p>
+          <a href="https://www.instagram.com"></a>
+          <svg class="bi text-white m-2" width="30" height="30" fill="currentColor">
+            <use xlink:href="iconos/bootstrap-icons/bootstrap-icons.svg#instagram" />
+          </svg></a>
+          <a href="https://www.facebook.com">
+            <svg class="bi text-white m-2" width="30" height="30" fill="currentColor">
+              <use xlink:href="iconos/bootstrap-icons/bootstrap-icons.svg#facebook" />
+            </svg></a>
+          <a href="https://www.twitter.com">
+            <svg class="bi text-white m-2" width="30" height="30" fill="currentColor">
+              <use xlink:href="iconos/bootstrap-icons/bootstrap-icons.svg#twitter" />
+            </svg></a>
+          <a href="https://www.linkedin.com/"><svg class="bi text-white m-2" width="30" height="30" fill="currentColor">
+              <use xlink:href="iconos/bootstrap-icons/bootstrap-icons.svg#linkedin" />
+            </svg>
+          </a>
+        </div>
       </div>
-      <div class="footer__center">
-        <img src="https://img.icons8.com/ios-glyphs/24/ffffff/send.png" />
-        <p>contacto@piscinascastillo.com</p>
-        <img src="https://img.icons8.com/android/24/ffffff/phone.png" />
-        <p>+56 5555 5555</p>
-        <img src="https://img.icons8.com/android/24/ffffff/phone.png" />
-        <p>+56 5555 5555</p>
-      </div>
-      <div class="footer__right">
-        <img class="footer__right--icon"
-          src="https://img.icons8.com/material-rounded/50/ffffff/facebook-circled--v1.png" />
-        <img class="footer__right--icon" src="https://img.icons8.com/ios-filled/50/ffffff/twitter-circled--v1.png" />
-        <img class="footer__right--icon" src="https://img.icons8.com/ios-glyphs/50/ffffff/instagram-circle.png" />
-        <img class="footer__right--icon" src="https://img.icons8.com/ios-filled/50/ffffff/linkedin-circled--v1.png" />
-      </div>
-    </section>
-    <section class="footer-bottom">
-      <div class="footer-bottom__container">
-        <p>© Copyright Julio Hernández 2021</p>
-        <p>Web Developer</p>
-      </div>
-    </section>
+    </div>
   </footer>
+  <!-- /FOOTER -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
