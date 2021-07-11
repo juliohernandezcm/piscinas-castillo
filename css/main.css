@@ -140,8 +140,11 @@ main .carousel-inner img {
   box-shadow: 1px 5px 16px 0px rgba(0, 0, 0, 0.93);
 }
 .main__contact--image {
-  width: 600px;
-  padding: 20px;
+  /* width: 600px;
+  padding: 20px; */
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
 }
 .main__contact--form {
   display: flex;
