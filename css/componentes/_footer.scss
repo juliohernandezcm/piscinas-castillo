@@ -1,0 +1,30 @@
+.footer {
+  background-color: $color-oscuro;
+  font-size: 1.2rem;
+  &__logo {
+    width: 80px;
+  }
+  &__rrss svg:hover {
+    transform: scale(1.2, 1.2);
+  }
+  &__btn-contact {
+    border-radius: 20px;
+  }
+  &__btn-contact:hover {
+    background-color: #9ca2aa;
+  }
+  &__list {
+    font-size: 16px;
+  }
+  &__list--menu {
+    text-align: left;
+  }
+  &__list--menu p {
+    font-size: 16px;
+  }
+  &__list--menu li {
+    padding: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    font-size: 16px;
+  }
+}

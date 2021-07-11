@@ -1,47 +1,47 @@
-:root {
-  --azulClaro: #4277b6;
-  --azulOscuro: #2e3a59;
-  --grisTexto: #6c6969;
-  --gris: #c4c4c4;
-}
 * {
   margin: 0;
   padding: 0px;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 1.4rem;
+  padding: 0 50px;
 }
+
 h2,
 h3,
 h4 {
-  color: var(--azulClaro);
+  color: #4277b6;
 }
-/* HEADER*/
-.navbar {
+
+.header .navbar {
   font-size: 1.8rem;
   background-color: white;
+  border-bottom: 1px solid #f5efef;
 }
-.navbar-brand img {
+.header .navbar-brand img {
   width: 70px;
 }
-.navbar-light .navbar-nav .nav-link {
-  color: var(--azulClaro);
+.header .navbar-light .navbar-nav .nav-link {
+  color: #4277b6;
   padding: 10px;
 }
+
 main .carousel-inner img {
   max-height: 70vh;
   object-fit: cover;
   filter: grayscale(30%);
 }
-#carousel {
+main #carousel {
   position: relative;
 }
-#carousel .overlay {
+main #carousel .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -52,43 +52,40 @@ main .carousel-inner img {
   z-index: 1;
   font-size: 2rem;
 }
-#carousel .overlay .container,
-#carousel .overlay .row {
+main #carousel .overlay .container,
+main #carousel .overlay .row {
   height: 100%;
 }
-/* /HEADER */
-.card-body p {
-  color: var(--grisTexto);
-}
-.card-img-top {
-  width: 30%;
-}
-/* INICIO SERVICIOS */
+
 .main-services {
   display: flex;
   justify-content: center;
 }
+
 .grid-container {
   display: grid;
-  grid-template: repeat(4, auto) / repeat(2, 400px);
+  grid-template: repeat(4, auto)/repeat(2, 400px);
   row-gap: 50px;
   column-gap: 30px;
   margin: 50px 0;
   padding: 20px;
   text-align: justify;
-  color: var(--grisTexto);
+  color: #6c6969;
 }
+
 .grid-container img {
   width: 350px;
 }
+
 .grid-container__item p {
   margin: 30px 0px;
 }
+
 .service-button {
   padding: 10px;
-  color: var(--azulClaro);
+  color: #4277b6;
   background-color: #ffffff;
-  border: var(--azulClaro) solid 2px;
+  border: #4277b6 solid 2px;
   border-radius: 30px;
   font-weight: bold;
   font-size: 1.4rem;
@@ -96,106 +93,77 @@ main .carousel-inner img {
   cursor: pointer;
   transition: all 1s ease;
 }
+
 .service-button:hover {
   color: #ffffff;
-  background-color: var(--azulClaro);
+  background-color: #4277b6;
 }
-/* FIN SERVICIOS */
-
-/* GALERIA */
 
 .main__galeria h2 {
   text-align: center;
   font-weight: bold;
   margin: 50px auto;
 }
+
 .main__flex {
   display: flex;
   width: 70%;
   margin: 50px auto;
   padding: 5px;
 }
+
 .columns img {
   width: 100%;
   margin-top: 5px;
 }
+
 .columns img:hover {
   transform: scale(1.2, 1.2);
   transition: all 1s;
 }
+
 .columns {
   flex: 25%;
   padding: 5px;
 }
-/* /GALERIA */
 
-/* CONTACTO */
-.main__contact {
-  display: flex;
-  justify-content: center;
-  margin: 50px auto;
-  flex-basis: auto;
-  width: 1200px;
-  padding: 50px;
-  box-shadow: 1px 5px 16px 0px rgba(0, 0, 0, 0.93);
-}
-.main__contact--image {
-  /* width: 600px;
-  padding: 20px; */
-  width: 70%;
-  height: auto;
-  margin: 0 auto;
-}
-.main__contact--form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 500px;
-  padding: 20px;
-  color: var(--azulClaro);
-  font-weight: bold;
-}
-.main__contact--form input {
-  border: none;
-  border-bottom: 2px solid var(--azulClaro);
-  margin: 15px;
-  width: 380px;
-}
-.main__contact--form .email {
-  width: 400px;
-}
-.main__contact--form label {
-  width: 800px;
-}
-textarea {
-  margin-top: 10px;
-  border: solid 2px var(--azulClaro);
-}
-.main__contact--form h3 {
-  text-align: center;
-  margin: 20px;
-}
-textarea {
-  resize: none;
-}
-/* /CONTACTO */
-
-/* FOOTER */
-#footer {
-  background-color: var(--azulOscuro);
+.footer {
+  background-color: #2e3a59;
   font-size: 1.2rem;
 }
-#footer .logo {
+.footer__logo {
   width: 80px;
-  /* height: 70px; */
 }
-#footer .rrss svg:hover {
+.footer__rrss svg:hover {
   transform: scale(1.2, 1.2);
 }
-#footer .btn-contact {
+.footer__btn-contact {
   border-radius: 20px;
 }
-#footer .btn-contact:hover {
+.footer__btn-contact:hover {
   background-color: #9ca2aa;
 }
-/* /FOOTER */ ;
+.footer__list {
+  font-size: 16px;
+}
+.footer__list--menu {
+  text-align: left;
+}
+.footer__list--menu p {
+  font-size: 16px;
+}
+.footer__list--menu li {
+  padding: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: 16px;
+}
+
+.card-body p {
+  color: var(--grisTexto);
+}
+
+.card-img-top {
+  width: 30%;
+}
+
+/*# sourceMappingURL=main.css.map */

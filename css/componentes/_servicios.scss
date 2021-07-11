@@ -1,0 +1,36 @@
+.main-services {
+  display: flex;
+  justify-content: center;
+}
+.grid-container {
+  display: grid;
+  grid-template: repeat(4, auto) / repeat(2, 400px);
+  row-gap: 50px;
+  column-gap: 30px;
+  margin: 50px 0;
+  padding: 20px;
+  text-align: justify;
+  color: $color-texto;
+}
+.grid-container img {
+  width: 350px;
+}
+.grid-container__item p {
+  margin: 30px 0px;
+}
+.service-button {
+  padding: 10px;
+  color: $color-claro;
+  background-color: #ffffff;
+  border: $color-claro solid 2px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 10px;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.service-button:hover {
+  color: #ffffff;
+  background-color: $color-claro;
+}

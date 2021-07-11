@@ -1,0 +1,32 @@
+$color-claro: #4277b6;
+$color-oscuro: #2e3a59;
+$color-texto: #6c6969;
+$color-gris: #c4c4c4;
+$fuente1: "Lato", sans-serif;
+$fuente2: "Oswald", sans-serif;
+
+@mixin titulos {
+  font-family: $fuente2;
+  font-size: 18px;
+  font-weight: bold;
+  color: $color-oscuro;
+}
+
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: $fuente1;
+  font-size: 1.4rem;
+  padding: 0 50px;
+}
+h2,
+h3,
+h4 {
+  color: $color-claro;
+}
