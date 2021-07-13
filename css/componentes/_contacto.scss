@@ -1,0 +1,48 @@
+.main__contact {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  flex-basis: auto;
+  width: 1200px;
+  padding: 50px;
+  box-shadow: 1px 5px 16px 0px rgba(0, 0, 0, 0.93);
+}
+.main__contact--image {
+  /* width: 600px;
+  padding: 20px; */
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+.main__contact--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding: 20px;
+  color: $color-primario;
+  font-weight: bold;
+}
+.main__contact--form input {
+  border: none;
+  border-bottom: 2px solid $color-primario;
+  margin: 15px;
+  width: 380px;
+}
+.main__contact--form .email {
+  width: 400px;
+}
+.main__contact--form label {
+  width: 800px;
+}
+textarea {
+  margin-top: 10px;
+  border: solid 2px $color-primario;
+}
+.main__contact--form h3 {
+  text-align: center;
+  margin: 20px;
+}
+textarea {
+  resize: none;
+}
