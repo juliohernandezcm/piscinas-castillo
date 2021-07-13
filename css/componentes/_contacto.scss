@@ -20,12 +20,12 @@
   justify-content: center;
   width: 500px;
   padding: 20px;
-  color: var(--azulClaro);
+  color: $color-primario;
   font-weight: bold;
 }
 .main__contact--form input {
   border: none;
-  border-bottom: 2px solid $color-claro;
+  border-bottom: 2px solid $color-primario;
   margin: 15px;
   width: 380px;
 }
@@ -37,7 +37,7 @@
 }
 textarea {
   margin-top: 10px;
-  border: solid 2px $color-claro;
+  border: solid 2px $color-primario;
 }
 .main__contact--form h3 {
   text-align: center;

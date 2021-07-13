@@ -1,7 +1,8 @@
-$color-claro: #4277b6;
-$color-oscuro: #2e3a59;
+$color-primario: #4277b6;
+$color-secundario: #2e3a59;
 $color-texto: #6c6969;
 $color-gris: #c4c4c4;
+$color-claro: #ffffff;
 $fuente1: "Lato", sans-serif;
 $fuente2: "Oswald", sans-serif;
 
@@ -9,7 +10,7 @@ $fuente2: "Oswald", sans-serif;
   font-family: $fuente2;
   font-size: 18px;
   font-weight: bold;
-  color: $color-oscuro;
+  color: $color-secundario;
 }
 
 * {
@@ -23,10 +24,10 @@ html {
 body {
   font-family: $fuente1;
   font-size: 1.4rem;
-  padding: 0 50px;
 }
 h2,
 h3,
 h4 {
-  color: $color-claro;
+  color: $color-secundario;
+  font-family: $fuente2;
 }

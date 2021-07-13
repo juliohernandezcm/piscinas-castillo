@@ -11,13 +11,13 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-size: 1.4rem;
-  padding: 0 50px;
 }
 
 h2,
 h3,
 h4 {
-  color: #4277b6;
+  color: #2e3a59;
+  font-family: "Oswald", sans-serif;
 }
 
 .header .navbar {
@@ -29,7 +29,7 @@ h4 {
   width: 70px;
 }
 .header .navbar-light .navbar-nav .nav-link {
-  color: #4277b6;
+  color: #2e3a59;
   padding: 10px;
 }
 
@@ -83,9 +83,9 @@ main #carousel .overlay .row {
 
 .service-button {
   padding: 10px;
-  color: #4277b6;
+  color: #ffffff;
   background-color: #ffffff;
-  border: #4277b6 solid 2px;
+  border: #ffffff solid 2px;
   border-radius: 30px;
   font-weight: bold;
   font-size: 1.4rem;
@@ -156,6 +156,38 @@ main #carousel .overlay .row {
   padding: 6px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   font-size: 16px;
+}
+
+.sucess__card {
+  color: #6c6969;
+  font-size: 16px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  color: #6c6969;
+  width: 80%;
+  margin: 0 auto;
+}
+.bio__container--img {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.bio__container--text {
+  text-align: justify;
+  margin-top: 30px;
+}
+.bio__container--text h2,
+.bio__container--text h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.mision__text {
+  text-align: justify;
+  margin-top: 40px;
+  color: #6c6969;
 }
 
 .card-body p {
