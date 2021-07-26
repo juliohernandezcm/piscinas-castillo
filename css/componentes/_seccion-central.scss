@@ -1,6 +1,11 @@
 .sucess__card {
   color: $color-texto;
   font-size: 16px;
+  justify-content: center;
+  &--img {
+    margin: 0 auto;
+    width: 50%;
+  }
 }
 
 .bio {
@@ -28,4 +33,7 @@
   text-align: justify;
   margin-top: 40px;
   color: $color-texto;
+}
+form {
+  padding: 100px;
 }
