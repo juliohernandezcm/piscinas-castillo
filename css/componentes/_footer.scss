@@ -1,6 +1,6 @@
 .footer {
   background-color: $color-secundario;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   &__logo {
     width: 80px;
   }
@@ -14,12 +14,12 @@
     background-color: #9ca2aa;
   }
   &__list {
-    font-size: 16px;
+    font-size: 14px;
   }
   &__list--menu {
     text-align: left;
   }
-  &__list--menu p {
+  &__list--menu {
     font-size: 16px;
   }
   &__list--menu li {

@@ -141,9 +141,20 @@ main #carousel .overlay .row {
   padding: 5px;
 }
 
+@media only screen and (max-width: 800px) {
+  .main__flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .columns img:hover {
+    transform: none;
+    transition: none;
+  }
+}
 .footer {
   background-color: #2e3a59;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .footer__logo {
   width: 80px;
@@ -158,12 +169,12 @@ main #carousel .overlay .row {
   background-color: #9ca2aa;
 }
 .footer__list {
-  font-size: 16px;
+  font-size: 14px;
 }
 .footer__list--menu {
   text-align: left;
 }
-.footer__list--menu p {
+.footer__list--menu {
   font-size: 16px;
 }
 .footer__list--menu li {
